@@ -37,7 +37,7 @@ pipeline {
                 docker {
                     image 'node:14-alpine'
                     args '-e HOME=/tmp -e NPM_CONFIG_PREFIX=/tmp/.npm'
-                }
+                } 
             }
             steps {
                 echo 'install dependencies' 
